@@ -26,6 +26,7 @@ class FacebookLogin {
                     let accessToken = facebookCredential.oauthToken
                     println(email)
                     println(accessToken)
+                    // ログイン後のViewへ遷移など
                 }
             } else {
                 println(error)
