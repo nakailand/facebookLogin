@@ -1,4 +1,4 @@
-# SwiftでACAccountを使ってのfacebookLogin
+# FacebookLogin with ACAccount in Swift 
 
 ## Facebook開発者登録
 - https://developers.facebook.com で開発者登録をする。
