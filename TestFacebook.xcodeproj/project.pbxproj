@@ -13,6 +13,7 @@
 		8414894A1ABB2AB00007A1D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841489491ABB2AB00007A1D0 /* Images.xcassets */; };
 		8414894D1ABB2AB00007A1D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8414894B1ABB2AB00007A1D0 /* LaunchScreen.xib */; };
 		841489591ABB2AB00007A1D0 /* TestFacebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841489581ABB2AB00007A1D0 /* TestFacebookTests.swift */; };
+		841489631ABB31DD0007A1D0 /* FacebookLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841489621ABB31DD0007A1D0 /* FacebookLogin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		841489521ABB2AB00007A1D0 /* TestFacebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFacebookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		841489571ABB2AB00007A1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841489581ABB2AB00007A1D0 /* TestFacebookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFacebookTests.swift; sourceTree = "<group>"; };
+		841489621ABB31DD0007A1D0 /* FacebookLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookLogin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				841489421ABB2AB00007A1D0 /* AppDelegate.swift */,
 				841489441ABB2AB00007A1D0 /* ViewController.swift */,
+				841489621ABB31DD0007A1D0 /* FacebookLogin.swift */,
 				841489461ABB2AB00007A1D0 /* Main.storyboard */,
 				841489491ABB2AB00007A1D0 /* Images.xcassets */,
 				8414894B1ABB2AB00007A1D0 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				841489451ABB2AB00007A1D0 /* ViewController.swift in Sources */,
+				841489631ABB31DD0007A1D0 /* FacebookLogin.swift in Sources */,
 				841489431ABB2AB00007A1D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
